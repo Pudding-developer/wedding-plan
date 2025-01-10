@@ -1,0 +1,24 @@
+header {
+    background-image: url('https://via.placeholder.com/1200x400');
+    background-size: cover;
+    background-position: center;
+}
+
+header h1 {
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+header p {
+    font-size: 1.2rem;
+}
+
+#gallery img {
+    max-height: 600px; /* Ensure the image height stays consistent */
+    object-fit: cover; /* Keeps the image proportional */
+}
+
+#gallery p {
+    font-size: 1.2rem;
+    margin-top: 1rem;
+}
